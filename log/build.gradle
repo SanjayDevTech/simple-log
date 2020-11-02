@@ -1,7 +1,29 @@
 plugins {
     id 'com.android.library'
 }
+ext {
+    bintrayRepo = 'log'
+    bintrayName = 'com.sanjaydevtech.log'
 
+    publishedGroupId = 'com.sanjaydevtech.log'
+    libraryName = 'log'
+    artifact = 'log'
+
+    libraryDescription = 'Simple Logging library'
+
+    siteUrl = 'https://github.com/SanjayDevTech/simple-log'
+    gitUrl = 'https://github.com/SanjayDevTech/simple-log.git'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'sanjaydevtech'
+    developerName = 'Sanjay Developer'
+    developerEmail = 'sureshsanjay805@gmail.com'
+
+    licenseName = 'MIT License'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
@@ -29,3 +51,4 @@ android {
 dependencies {
 
 }
+apply from: 'publish.gradle'
