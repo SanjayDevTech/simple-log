@@ -12,8 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (Cout.v("Hi from onCreate") == Cout.NO_OUTPUT) {
-            System.out.println("No");
-        }
+        Cout.v("Hi from onCreate");
     }
 }
