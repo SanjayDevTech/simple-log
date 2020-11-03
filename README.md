@@ -35,6 +35,7 @@ implementation 'com.sanjaydevtech.log:log:<latest_version>'
 ```java
 Cout.d("Logged");
 ```
+Refer [Getting Started](https://github.com/SanjayDevTech/simple-log/wiki/Getting-Started) for all details
 
 
 ### License
